@@ -1,0 +1,30 @@
+{
+    "name": "akrillia/exra",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "moneyphp/money": "^3.3"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22",
+        "laravel/pint": "^1.6"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "AkrilliA\\ExRa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas Regner",
+            "email": "regnerjonas@proton.me"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
